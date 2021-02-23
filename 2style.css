@@ -1,0 +1,209 @@
+header {
+    color: black;
+   font: "Chelsea Market" , cursive;
+    text-align: center;
+	background-color: #e4572e;
+}
+
+header h2 {
+    color: white;
+    font-size: 1rem;
+    font-family: "Gamja Flower" , sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #fffff2;
+	font-family: 'Gamja Flower', cursive;
+}
+
+main article h2 {
+    font-size: 1rem;
+}
+
+#addNote{
+  border: 3px solid #050401;
+  box-shadow: 3px 3px 0 0 #e4572e;
+	display: block;
+  color: white;
+	background-color: black;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 25%;
+	text-decoration: none;
+  margin: auto;
+}
+
+#btn_2 {
+	border: 3px solid #050401;
+  box-shadow: 3px 3px 0 0 #e4572e;
+	display: block;
+  color: white;
+	background-color: black;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 25%;
+	text-decoration: none;
+  margin: auto;
+}
+
+.specialone {
+    border: 4px solid #050401;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 45%;
+    height: 11em;
+    margin: auto auto 10px auto;
+    
+
+}
+
+.specialtwo {
+    border: 4px solid #050401;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    text-align: justify;
+    width: 45%;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+article p {
+    color: black;
+    font-size: 1em;
+	margin: 10px 200px 10px 10px;
+}
+
+.image {
+ position: absolute;
+	right: 0px;
+	top: 0;
+margin: 0px 0px 0px 0px; 
+}
+.imageone{
+    float: right;
+    margin: 0px 0px 0px 0px;
+}
+.imagetwo {
+float: right;   
+margin: 0 30px 0 30px; 
+}
+
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: indigo;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #fffff2;
+	font-family: 'Gamja Flower', cursive;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+footer h2 + p {
+    text-align: center;
+}
+
+input[type=text] {
+    background-color: white;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    border: 2px inset white;
+    border-radius: 6%;
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    margin: 0 3px;
+    cursor: pointer;
+	font-family: 'Gamja Flower', cursive;
+  }
+input[type=submit] {
+    background-color: white;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    border: 1px inset white;
+    border-radius: 6%;
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    margin: 0 3px;
+    cursor: pointer;
+	font-family: 'Gamja Flower', cursive;
+   }
+
+   .coloformone{
+       display: flex;
+       justify-content: center;
+       
+   }
+
+   .coloformtwo{
+       float: left;
+       text-align: center;
+   }
+
+   footer form + p  {
+       font-weight: bold;
+       text-align: center;
+   }
+
+
+
+
+.modal_wrapper {
+width= 50%;
+height=50%;
+background-color: rgba(0, 0, 0, 1);
+top=0;
+display: flex;
+justify-content: center;
+align-items: vertical;
+
+
+
+
+
+}
+
+.modal_window {
+width=50%;
+height=20%;
+background-color:white;
+border-radius: 4px;
+position: absolute;
+
+	
+	
+
+}
+
+.text1, .text2 {
+	display: block;
+	width: 500px;
+	height: 50px
+}
+
+#modal_close{
+	top: 10;
+	position: absolute;
+	right: 0;
+	
+}
+
+
